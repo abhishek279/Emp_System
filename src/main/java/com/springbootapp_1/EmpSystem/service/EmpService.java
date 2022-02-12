@@ -6,8 +6,6 @@ import org.springframework.stereotype.Service;
 import com.springbootapp_1.EmpSystem.entity.Employee;
 import com.springbootapp_1.EmpSystem.repository.EmpRepo;
 
-import antlr.collections.List;
-
 @Service
 
 public class EmpService {

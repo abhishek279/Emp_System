@@ -40,6 +40,7 @@ public class EmpController {
 	public String empRegister(@ModelAttribute Employee e,HttpSession session) {
 
 		System.out.println(e);
+		service.addEmp(e);
 		
 		session.setAttribute("msg", "Employee Added Successfully");
 		
